@@ -1,0 +1,19 @@
+
+.card-category{
+    height: 10rem;
+    width: 25REM;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 2rem;}
+
+
+.category-verduras{
+    background-image: linear-gradient(#00000080,#00000080), url('tom.jpg');
+    background-image: center;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    }

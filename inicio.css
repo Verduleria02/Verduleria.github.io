@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    font-family:'Dancing Script', cursive;
+    min-height: 70vh;
+     display: flex;
+    align-items: center;
+     justify-content: center;
+}
+ 
+    form{
+    
+    padding: 50px 55px 85px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    }
+.input-group {
+        display: flex;  
+        flex-direction: column;
+        text-align: left;
+        }
+
+h2 {
+ color:#1B1B1B;
+font-size: 35px;
+ margin: 0;
+}
+ p {
+ font-size: 16px;
+color: #353535;
+margin-bottom: 20px;
+ }
+        
+.line {
+ display: inline-block;
+ width: 50px;
+height: 7px;
+background: linear-gradient( 90deg,
+         rgb(211, 7, 247) 0%,
+        rgb(255, 255, 255)77%);
+}
+label{
+    color: #1B1B1B;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input{
+    padding: 17px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #EDEDED;
+    color: #1B1B1B;
+    outline: none;
+}
+input::placeholder{
+    color: #C0C0C0;
+}
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.form-txt a {
+    color:#1B1B1B;
+    font-size: 14px;
+     font-weight: 600;
+    text-decoration: none;
+ }
+.btn {
+    font-size: 16px;
+     color: #000000;
+     border: 0;
+    border-radius: 25px;
+     background:linear-gradient(90deg,
+     #cc95d6 0%, rgb(154, 148, 155)77%);
+    box-shadow: 0 0 20px rgba(214, 0, 254, 0.4);
+    cursor: pointer;
+    }
